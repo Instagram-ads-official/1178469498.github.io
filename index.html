@@ -27,8 +27,8 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const whatsappNumber = "5491178469498"; // Número de WhatsApp
-            
-           const whatsappURL = `https://wa.me/${whatsappNumber}?text=Hola,%20vengo%20por%20el%20bono%20de%20bienvenida🎁%20¿me%20creas%20un%20usuario?`;
+            const message = "Hola, vengo por el bono de bienvenida del 200%, ¿me creas un usuario?";
+ const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
 
             // Redirigir inmediatamente a WhatsApp
